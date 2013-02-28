@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Find facebook ID</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+		background-color:#007F82;
+		font-size:16px;				
+		color:#FFFFFF;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+
+@font-face {
+    font-family: 'QuicksandBook';
+    src: url('/fonts/Quicksand_Book-webfont.eot');
+    src: url('/fonts/Quicksand_Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Quicksand_Book-webfont.woff') format('woff'),
+         url('/fonts/Quicksand_Book-webfont.ttf') format('truetype'),
+         url('/fonts/Quicksand_Book-webfont.svg#QuicksandBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+	body
+	{
+		font-family:QuicksandBook;
+	}
+
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+    <script src="popup.js"></script>
+  </head>
+  <body>
+  <p id="facebookIDDisplayArea">Please enter any facebook user name or page name</p>
+  <input id="fbUserName" type="text">
+  <button type="button" onclick="findID()">Search</button>
+  </body>
+</html>
+
