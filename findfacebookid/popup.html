@@ -38,18 +38,32 @@
 
     </style>
 
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
-     -->
-    <script src="popup.js"></script>
+	<script src="jquery-1.9.1.min.js"></script>
+	<script src="popup.js"></script>
+
   </head>
   <body>
+  
   <p id="facebookIDDisplayArea">Please enter any facebook user name or page name</p>
-  <input id="fbUserName" type="text">
-  <button type="button" onclick="findID()">Search</button>
+  <input id="fbUserNameInput" type="text">
+  <button id=searchIdButton>Search</button><br><br>
+  <hr>
+  <br>
+  <table id=info>
+	  <tr>
+	  <td><label id=fbId>Facebook id</label></td>
+	  <td rowspan=3  id=fbpic></td>
+	  </tr>
+
+	  <tr>
+	  <td><label id=fbUserName>Facebook User Name</label></td>
+	  </tr>
+
+	  <tr>
+	  <td><label id=fbProfileName>Facebook Profile name</label></td>
+	  </tr>
+  </table>
+
   </body>
 </html>
 

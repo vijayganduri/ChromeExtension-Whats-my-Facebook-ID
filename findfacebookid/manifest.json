@@ -12,5 +12,5 @@
     },
    "default_title": "Find any facebook id", "default_popup": "popup.html"
   },
-  "permissions": ["contextMenus"]
+  "permissions": ["contextMenus", "notifications"]
 }
