@@ -1,3 +1,3 @@
-Add listener for click eents and callbacks
-Implement the graph api method for facebook id fetch
-Display basic profile details along with fb id
+Move the styling to css
+Refactor the UI to metro style
+Hide the profile details initially
