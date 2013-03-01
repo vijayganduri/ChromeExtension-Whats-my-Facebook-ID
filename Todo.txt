@@ -1,3 +1,3 @@
 Move the styling to css
-Refactor the UI to metro style
+Refactor the UI to metro style 
 Hide the profile details initially
