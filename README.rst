@@ -1,6 +1,6 @@
 ChromeExtension-Whats-my-Facebook-ID
 ================================
-Chrome plugin to find the facebook id of any facebook user or fan page.
+Chrome extension to find the facebook id of any facebook user or fan page.
 
 Installation
 ================================
