@@ -1,16 +1,23 @@
 {
   "manifest_version": 2,
 
-  "name": "Find Facebook Id",
-  "description": "Know any facebook id of any user or your favorite fan page.",
+  "name": "What's my Facebook ID",
+  "description": "Know facebook id of any user or your favorite fan page.",
   "version": "1.0",
 
   "browser_action": {
-    "default_icon": {                    // optional
+    "default_icon": {                    
+      "16": "icons/icon16.png",           // optional
       "19": "icons/icon19.png",           // optional
-      "38": "icons/icon38.png"            // optional
+      "48": "icons/icon48.png",            // optional
+      "128": "icons/icon128.png"
     },
-   "default_title": "Find any facebook id", "default_popup": "popup.html"
+   "default_title": "What's my Facebook ID", "default_popup": "popup.html"
   },
-  "permissions": ["contextMenus", "notifications"]
+    "icons" : {
+      "16": "icons/icon16.png",           // optional
+      "19": "icons/icon19.png",           // optional
+      "48": "icons/icon48.png",            // optional
+      "128": "icons/icon128.png"
+  }
 }
