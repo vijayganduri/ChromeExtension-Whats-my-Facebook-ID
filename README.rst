@@ -1,3 +1,6 @@
+.. image::
+  /findfacebookid/icons/icon128.png
+
 ChromeExtension-Whats-my-Facebook-ID
 ================================
 Chrome extension to find the facebook id of any facebook user or fan page.
