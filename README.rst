@@ -1,5 +1,5 @@
 .. image::
-  /findfacebookid/icons/icon128.png
+  promologo.png
 
 ChromeExtension-Whats-my-Facebook-ID
 ================================
